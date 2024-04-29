@@ -1,11 +1,11 @@
 name: Cypress Tests
 
-on: push  #será executado sempre que ocorrer um push na main
+on: [push]  
 
-# Todo o fluxo de trabalho do workflow
+
 jobs: 
   cypress-electron-tests:
-    runs-on: ubunto-latest  # Agente de execução - Conteiner docker - máquina virtual
+    runs-on: ubunto-latest  
     steps:
       - name: Get code
         uses: actions/checkout@v4.1.4
