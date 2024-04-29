@@ -4,7 +4,7 @@ on: [push]  #será executado sempre que ocorrer um push na main
 
 # Todo o fluxo de trabalho do workflow
 jobs: 
-  cypres-electron-tests:
+  cypress-electron-tests:
     runs-on: ubunto-latest  # Agente de execução - Conteiner docker - máquina virtual
     steps:
       - name: Get code
