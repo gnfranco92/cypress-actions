@@ -1,5 +1,5 @@
 name: Cypress Cloud
-
+# npx cypress run --record --key 7470fa9f-01b7-46df-b5fc-9640c6d04366
 on:
   workflow_dispatch: 
     inputs:
